@@ -1,0 +1,7 @@
+name: Utils
+version: '1.0'
+main: ru.laimcraft.utils.Core
+api-version: '1.21'
+load: STARTUP
+authors: [LaimCraft]
+website: https://github.com/LaimCraft/Utils
