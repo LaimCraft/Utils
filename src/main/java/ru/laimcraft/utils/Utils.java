@@ -6,13 +6,12 @@ import org.bukkit.ChatColor;
 import org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
-import javax.print.DocFlavor;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.util.regex.Pattern;
 
 public class Utils {
-    public static void SendPacket(Packet<?> packet, CraftPlayer craftPlayer) {
+    public static void sendPacket(Packet<?> packet, CraftPlayer craftPlayer) {
         craftPlayer.getHandle().connection.send(packet);}
 
     public static String getSHA512(String input){
